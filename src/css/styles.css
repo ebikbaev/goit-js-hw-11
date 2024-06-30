@@ -59,7 +59,8 @@
   margin-bottom: 20px;
 }
 
-.gallery-link {}
+.gallery-link {
+}
 
 .gallery {
   display: flex;
@@ -101,7 +102,10 @@ p {
 }
 
 .gallery-item {
-  list-style-type: none;
+  display: block;
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
 }
 
 .loader {
